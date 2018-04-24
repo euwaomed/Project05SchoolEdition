@@ -1,10 +1,2 @@
-## Example Project
-
-### Instructions
-
-After cloning the repository with Intellij initialize the tests.
-
-``` sh
-git submodule init
-git submodule update --remote
-```
+This is your readme file. Feel free to edit make edits to it.
+The project instructions are over [here](docs/instructions.md).
