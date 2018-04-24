@@ -48,7 +48,7 @@ r2 == r3; // false
 <div style="page-break-after: always;"></div>
 
 #### RectangleSorter
-The rectangle sorter class should be contructed with an array of rectangles. The class should have methods to sort the rectangles with selection sort. The sorting should be based on the retangle areas with the smallest rectangle having index zero.
+The rectangle sorter class should be constructed with an array of rectangles. The class should have methods to sort the rectangles with selection sort. The sorting should be based on the rectangle areas with the smallest rectangle having index zero.
 
 ``` java
 Rectangle[] arr = new Rectangle[3];
