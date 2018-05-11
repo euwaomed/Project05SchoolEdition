@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle implements Comparable<Rectangle> {
     private int width;
     private int height;
 
@@ -48,12 +48,12 @@ public class Rectangle {
 
     public int compareTo(Rectangle r1)
     {
-        return  this.getArea() - r1.getArea();
+        return  getArea() - r1.getArea();
     }
 
     public String toString()
     {
-        return "width: " + width + " height: " + height;
+       return String.format("{type: Rectangle, width: %d, height: %d}", width, height);
     }
 
     public void draw(char A)
